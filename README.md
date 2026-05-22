@@ -1,2 +1,22 @@
-# tempo-node-guide
-Step-by-step Tempo node installation and monitoring guide.
+# Tempo Node Guide
+
+Step-by-step guide for installing and managing Tempo nodes.
+
+## Features
+
+- VPS preparation
+- Docker installation
+- Node deployment
+- Monitoring
+- Health checks
+- Backup automation
+- Security recommendations
+
+## Repository Structure
+
+```text
+guides/
+scripts/
+monitoring/
+docker/
+```
