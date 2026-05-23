@@ -27,3 +27,11 @@ docker/
 - Docker deployment
 - Firewall setup
 - Health diagnostics
+## Advanced Features
+
+- Prometheus monitoring
+- Grafana dashboards
+- Automated backups
+- Health diagnostics
+- Container monitoring
+- Security hardening
