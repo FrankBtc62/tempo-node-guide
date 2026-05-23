@@ -2,4 +2,6 @@
 
 docker ps
 
-echo "Tempo node healthcheck completed."
+docker inspect --format='{{json .State.Health}}' tempo-node
+
+echo "Healthcheck completed."
