@@ -20,3 +20,10 @@ scripts/
 monitoring/
 docker/
 ```
+## Utilities
+
+- Monitoring scripts
+- Backup automation
+- Docker deployment
+- Firewall setup
+- Health diagnostics
