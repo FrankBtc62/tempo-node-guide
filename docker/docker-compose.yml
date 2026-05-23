@@ -1,0 +1,18 @@
+version: "3"
+
+services:
+  tempo-node:
+    image: ubuntu:22.04
+
+    container_name: tempo-node
+
+    restart: unless-stopped
+
+    ports:
+      - "30303:30303"
+
+    volumes:
+      - ../data:/data
+      - ../logs:/logs
+
+    command: tail -f /dev/null
